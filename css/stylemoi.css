@@ -1,0 +1,340 @@
+
+    #topmenu {
+    width:100%;
+    height:50px;
+    background:#262626;
+    margin:0 auto;
+}
+#topmenu .free_ship {
+    font-size:13px;
+    line-height:50px;
+    display:inline-block;
+    float:left;
+    color:#888888;
+}
+#topmenu .free_ship span.wrap1 {
+    font-size:15px;
+    color:white;
+}
+#topmenu .free_ship span.wrap2 {
+    color:#ff6318;
+    font-size:15px;
+}
+#topmenu .free_ship span.wrap3 {
+    color:#fff;
+    font-size:15px;
+}
+#topmenu .topmenu_nav {
+    display:inline-block;
+    float:right;
+    line-height:50px;   
+    font-family:Noto sans;
+}
+#topmenu .topmenu_nav ul {
+    float:left;
+}
+#topmenu .topmenu_nav ul li {
+    display:inline-block;
+    text-decoration:none;
+    position:relative;
+    border-right:1px solid #888;
+}
+#topmenu .topmenu_nav ul li a {
+    font-size:14px;
+    line-height:15px;
+    color:#19CAAF;
+    padding:0 15px;
+    text-decoration:none;
+    transition:all ease 0.3s;
+    
+}
+#topmenu .topmenu_nav ul li:last-child {
+    border-right:none;
+}
+#topmenu .topmenu_nav a>i {
+    font-size:25px;
+    padding:2px;
+    color:#19CAAF;
+    transition:all ease 0.3s;
+}
+#topmenu .topmenu_nav a:hover,#topmenu .topmenu_nav i:hover {
+    color:white;
+    transition:all ease 0.3s;
+}
+ .box-heading a.parent-menu,  .box-heading span.parent-menu-current {
+    display:inline-block;
+    font-weight:normal;
+    padding:14px 10px 14px 10px;    
+    cursor:pointer;
+    font-size:14px;
+    line-height:16px;
+    color:#2f2f2f;
+    text-decoration:none;
+    transition:all ease 300ms;
+}
+
+  .box-heading {
+
+    width: 697px;
+    height: 50px;
+    display: inline-block;
+    margin: 0px 0 30px 0;
+        margin-top: 0px;
+    background: #F2F2F2;
+    font-family: Noto sans;
+    margin-top: 52px;
+
+}
+.box_catagory {
+
+    margin-top: 45px;
+
+}
+
+.box-heading span.parent-menu-current {
+    color:#19caaf;
+    cursor:default;
+}
+ .box-heading a.parent-menu:hover {
+    color:#19caaf;
+    transition:all ease 300ms;
+}
+.form_tt table {
+    font-family:Noto sans;
+    font-size:14px;
+}
+ .form_tt select {
+    border:1px solid #C2C2C2;
+    border-radius: 0;
+    color:#888;
+}
+.form_tt textarea {
+    width:100%;
+    height:100px;
+    border:1px solid #C2C2C2;
+}
+ .form_tt tr>td:first-child {
+    text-align:right;
+    padding-right:30px;
+    width:30%;
+}
+ .form_tk {
+    background:#f9f9f9;
+    border:1px solid #e6e6e6;
+    margin-bottom:30px;
+    padding:30px;
+    width:303px;
+    float:left;
+    margin-right:30px;
+    font-family:Noto sans;
+}
+ .form_tk:last-child {
+    margin-right:0px;
+}
+ .form_tk .heading,  .form_tk p {
+    border-bottom:1px solid #e6e6e6;
+    margin-bottom:15px;
+    padding-bottom:15px;
+}
+ .form_tk .heading i {
+    color:#19caaf;
+    float:left;
+    font-size:60px;
+    margin-right:14px;
+    line-height:75px;
+}
+ .form_tk .heading h3 {
+    font-size:23px;
+    font-weight:bold;
+    color:#19caaf;
+    margin-bottom:5px;
+}
+ .form_tk .heading strong {
+    font-size:14px;
+    font-style:italic;
+    font-weight:normal;
+}
+ .form_tk  a.dangky,  .form_tk input[type="submit"] {
+    background:#19caaf;
+    font-size:15px;
+    font-weight:400;
+    color:#fff;
+    line-height:20px;
+    padding:12px 16px;
+    text-decoration:none;
+    border:none;
+    height:auto;
+    position:relative;
+    float:right;
+    transition:300ms all ease;
+    margin-top:10px;
+}
+ .form_tk  a.dangky:hover, .form_tk input[type="submit"]:hover {
+    background:black;
+    transition:300ms all ease;
+}
+ .form_tk label {
+    font-weight:bold;
+    font-size:13px;
+    color:#2f2f2f;
+    cursor:default;
+}
+ .form_tk input[type="text"], .form_tk input[type="password"]
+{
+    font-size:13px;
+    display:block;
+    width:100%;
+    height:34px;
+    padding:6px 12px;
+    border-radius:0;
+}
+ .form_tk a.quenmk {
+    font-size:12px;
+    line-height:18px;
+    text-decoration:none;
+    margin:10px 0;
+}
+ .form_tk a.quenmk:hover {
+    color:#19caaf;
+}
+ .form_tk table.thongtinkhachhang tr td {
+    font-size:14px;
+    line-height:24px;
+    color:#404040;
+    width:430px;
+}
+ .form_tk table.thongtinkhachhang tr td.right {
+    padding:10px;
+    font-weight:bold;
+}
+ .form_tk span.menu_thongtin {
+    display:block;
+    width:100%;
+    clear:both;
+}
+ .form_tk span.menu_thongtin i{
+    font-size:30px;
+    line-height:30px;
+    padding:10px 10px 10px 0px;
+    float:left;
+    display:block;
+    color:#19caaf;
+    width:30px;
+}
+ .form_tk span.menu_thongtin a{
+    font-size:14px;
+    text-decoration:none;
+    line-height:30px;
+    float:left;
+    padding-top:10px;
+    margin-left:10px;
+    color:#404040;
+    transition:all 300ms delay;
+}
+ .form_tk span.menu_thongtin a:hover {
+    color:#19caaf;
+    transition:all 300ms delay;
+}
+ .form_tk span.active a{
+    cursor:default;
+    color:#19caaf;
+}
+ .form_tk table.lichsumuahang {
+    font-size:12px;
+}
+ .form_tk table.lichsumuahang th{
+    background:#F9F9F9;
+    border:1px solid #D7D7D7;
+    padding:8px;
+}
+ .form_tk table.lichsumuahang td {
+    border:1px solid #D7D7D7;
+    padding:8px;
+}
+ .form_tk table.lichsumuahang .right {
+    text-align:right;
+}
+ul.box_catagory_content {
+    display:block;
+    margin-left:0px;
+    
+}
+ul.box_catagory_content li {
+    display:list-item;
+    position:relative;
+    border-top:1px solid #D9D9D9;
+}
+ul.box_catagory_content li a{
+    display:block;
+    text-decoration:none;
+    font-size:14px;
+    font-family:"Unbutu", sans-serif;
+    color:#2f2f2f;
+    background:#f2f2f2;
+    padding:9px 20px;
+    transition:0.3s all ease;
+}
+ul.box_catagory_content li a img{
+    margin-right:20px;
+}
+ul.box_catagory_content li a:hover {
+    color:#19caaf;
+    transition:300ms all ease;
+}
+.box_catagory {
+    margin-bottom:40px;
+    position:relative;
+}
+a.continue {
+    color: white;
+    float: right;
+    padding: 12px 16px;
+    background: #19caaf;
+    margin: 30px auto;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 300ms ease;
+    margin-right: 151px;
+
+}
+a.continue:hover {
+    background:black;
+    color:white;
+    transition:all 300ms ease;
+}
+span.empty_cart {
+
+    display: block;
+    text-align: center;
+    color: red;
+
+}
+.update-item {
+    border: none;
+    padding: 2px;
+    background-color: #eaf9fc;
+}
+.valid {
+
+    width: 51px;
+    border: none;
+    background: #d9d2d2;
+    margin-left: 17px;
+
+}
+ul.tomtatkhachhang li i {
+
+    color: #19caaf;
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    font-size: 30px;
+    /*padding: 9px 10px;*/
+    width: 30px;
+    text-align: center;
+
+}
+.box_catagory_content.tomtatkhachhang {
+
+    line-height: 30px;
+}
